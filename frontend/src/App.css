@@ -1,0 +1,132 @@
+/* Estilo para a navegação */
+nav {
+  /* Define a cor de fundo para a barra de navegação */
+  background-color: #eca012;
+  /* Define o preenchimento interno para a barra de navegação */
+  padding: 1rem;
+}
+
+nav ul {
+  /* Remove o estilo de lista padrão (marcadores) */
+  list-style: none;
+  /* Remove o preenchimento interno padrão da lista */
+  padding: 0;
+  /* Exibe os itens da lista em uma linha flexível */
+  display: flex;
+  /* Espaça os itens da lista uniformemente ao longo da barra de navegação */
+  justify-content: space-around;
+}
+
+nav ul li {
+  /* Define a margem horizontal para os itens da lista */
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  /* Define a cor do texto dos links na navegação */
+  color: white;
+  /* Remove a sublinhado dos links */
+  text-decoration: none;
+  /* Define o peso da fonte para os links */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  /* Adiciona um sublinhado aos links quando o cursor passa por cima */
+  text-decoration: underline;
+}
+
+/* Estilo para o conteúdo */
+body {
+  /* Define a família de fontes para o corpo do documento */
+  font-family: Arial, sans-serif;
+  /* Define a cor de fundo do corpo do documento */
+  background-color: #f4f4f4;
+  /* Remove a margem padrão do corpo do documento */
+  margin: 0;
+  /* Remove o preenchimento interno padrão do corpo do documento */
+  padding: 0;
+}
+
+.container {
+  /* Define a largura máxima do contêiner */
+  max-width: 1200px;
+  /* Centraliza o contêiner horizontalmente com margem automática */
+  margin: 2rem auto;
+  /* Define o preenchimento interno do contêiner */
+  padding: 2em;
+  /* Define a cor de fundo do contêiner */
+  background-color: white;
+  /* Adiciona uma sombra ao redor do contêiner */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  /* Define a cor do texto para os cabeçalhos h1 e h2 */
+  color: #333;
+}
+
+table {
+  /* Define a largura da tabela para ocupar 100% do contêiner pai */
+  width: 100%;
+  /* Colapsa as bordas da tabela para que as bordas adjacentes se fundam */
+  border-collapse: collapse;
+  /* Define a margem vertical para a tabela */
+  margin: 2rem 0;
+}
+
+table, th, td {
+  /* Define a borda para a tabela e suas células */
+  border: 1px solid #ddd;
+}
+
+th, td {
+  /* Define o preenchimento interno para as células da tabela */
+  padding: 1rem;
+  /* Alinha o texto à esquerda nas células da tabela */
+  text-align: left;
+}
+
+th {
+  /* Define a cor de fundo para os cabeçalhos da tabela */
+  background-color: #f4f4f4;
+}
+
+button {
+  /* Define o preenchimento interno para os botões */
+  padding: 0.5rem 1rem;
+  /* Define a cor de fundo para os botões */
+  background-color: #333;
+  /* Define a cor do texto para os botões */
+  color: white;
+  /* Remove a borda dos botões */
+  border: none;
+  /* Define o cursor como ponteiro ao passar por cima dos botões */
+  cursor: pointer;
+}
+
+button:hover {
+  /* Define uma cor de fundo mais clara para os botões quando o cursor passa por cima */
+  background-color: #555;
+}
+
+input[type="file"] {
+  /* Define a exibição do campo de arquivo como bloco */
+  display: block;
+  /* Define a margem vertical para o campo de arquivo */
+  margin: 1rem 0;
+}
+
+.pagina-inicial {
+  /* Centraliza o texto no contêiner da página inicial */
+  text-align: center;
+}
+
+.descricao-sistema {
+  /* Define o tamanho da fonte para a descrição do sistema */
+  font-size: 1.2em;
+  /* Define a cor do texto para a descrição do sistema */
+  color: #555;
+  /* Define a margem superior para a descrição do sistema */
+  margin-top: 1em;
+}

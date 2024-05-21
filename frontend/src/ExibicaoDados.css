@@ -1,0 +1,44 @@
+/* ExibicaoDados.css */
+/* Estilo para o contêiner dos gráficos */
+.chart-container {
+    /* Define a exibição flexível para o contêiner dos gráficos */
+    display: flex;
+    /* Espaça uniformemente os itens dentro do contêiner */
+    justify-content: space-around;
+    /* Define a margem inferior para o contêiner */
+    margin-bottom: 20px;
+}
+
+/* Estilo para os itens dos gráficos */
+.chart-item {
+    /* Permite que os itens cresçam igualmente para ocupar o espaço disponível */
+    flex: 1;
+    /* Define o preenchimento interno para os itens */
+    padding: 10px;
+}
+
+/* Estilo para as tabelas */
+table {
+    /* Define a largura total da tabela */
+    width: 100%;
+    /* Colapsa as bordas da tabela para que as bordas adjacentes se fundam */
+    border-collapse: collapse;
+    /* Define a margem superior para a tabela */
+    margin-top: 20px;
+}
+
+/* Estilo para cabeçalhos e células da tabela */
+th, td {
+    /* Define a borda para cabeçalhos e células da tabela */
+    border: 1px solid #ddd;
+    /* Define o preenchimento interno para cabeçalhos e células */
+    padding: 8px;
+    /* Alinha o texto à esquerda em cabeçalhos e células */
+    text-align: left;
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    /* Define a cor de fundo para os cabeçalhos da tabela */
+    background-color: #f2f2f2;
+}

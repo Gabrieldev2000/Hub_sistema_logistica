@@ -1,0 +1,127 @@
+/* ImportacaoPedidos.css */
+
+/* Estilo para o contêiner de importação */
+.import-container {
+    /* Define a exibição flexível para o contêiner */
+    display: flex;
+    /* Define a direção dos itens como coluna */
+    flex-direction: column;
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    /* Centraliza o texto dentro do contêiner */
+    text-align: center;
+    /* Define o preenchimento interno do contêiner */
+    padding: 2em;
+}
+
+/* Estilo para o grupo de entrada */
+.input-group {
+    /* Define a exibição flexível para o grupo de entrada */
+    display: flex;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    align-items: center;
+    /* Define a margem vertical para o grupo de entrada */
+    margin: 1em 0;
+}
+
+/* Estilo para a descrição */
+.description {
+    /* Define a margem vertical para a descrição */
+    margin: 1em 0;
+    /* Define o preenchimento interno para a descrição */
+    padding: 1em;
+    /* Define a borda para a descrição */
+    border: 1px solid #ddd;
+    /* Define o raio da borda para a descrição */
+    border-radius: 8px;
+    /* Define a cor de fundo para a descrição */
+    background-color: #f9f9f9;
+    /* Define a largura máxima para a descrição */
+    max-width: 600px;
+}
+
+/* Estilo para o rótulo de entrada de arquivo */
+.file-input-label {
+    /* Define a cor de fundo para o rótulo */
+    background-color: #eca012;
+    /* Define a cor do texto para o rótulo */
+    color: white;
+    /* Define o preenchimento interno para o rótulo */
+    padding: 10px 20px;
+    /* Centraliza o texto dentro do rótulo */
+    text-align: center;
+    /* Remove a decoração do texto */
+    text-decoration: none;
+    /* Define a exibição como bloco inline */
+    display: inline-block;
+    /* Define o tamanho da fonte para o rótulo */
+    font-size: 16px;
+    /* Define o cursor como ponteiro ao passar por cima do rótulo */
+    cursor: pointer;
+    /* Define o raio da borda para o rótulo */
+    border-radius: 4px;
+    /* Define a posição relativa para o rótulo */
+    position: relative;
+    /* Oculta o conteúdo excedente */
+    overflow: hidden;
+}
+
+/* Estilo para o elemento de entrada dentro do rótulo de entrada de arquivo */
+.file-input-label input {
+    /* Define a posição absoluta para o elemento de entrada */
+    position: absolute;
+    /* Posiciona o elemento de entrada no topo do rótulo */
+    top: 0;
+    /* Posiciona o elemento de entrada à direita do rótulo */
+    right: 0;
+    /* Remove a margem do elemento de entrada */
+    margin: 0;
+    /* Remove o preenchimento interno do elemento de entrada */
+    padding: 0;
+    /* Define o tamanho da fonte para o elemento de entrada */
+    font-size: 20px;
+    /* Define o cursor como ponteiro ao passar por cima do elemento de entrada */
+    cursor: pointer;
+    /* Define a opacidade do elemento de entrada como zero (invisível) */
+    opacity: 0;
+    /* Define o filtro de opacidade do elemento de entrada como zero (compatibilidade com IE) */
+    filter: alpha(opacity=0);
+}
+
+/* Estilo para o botão de upload */
+.upload-button {
+    /* Define a cor de fundo para o botão */
+    background-color: #eca012;
+    /* Define a cor do texto para o botão */
+    color: white;
+    /* Remove a borda do botão */
+    border: none;
+    /* Define o preenchimento interno para o botão */
+    padding: 10px 20px;
+    /* Centraliza o texto dentro do botão */
+    text-align: center;
+    /* Remove a decoração do texto */
+    text-decoration: none;
+    /* Define a exibição como bloco inline */
+    display: inline-block;
+    /* Define o tamanho da fonte para o botão */
+    font-size: 16px;
+    /* Define o cursor como ponteiro ao passar por cima do botão */
+    cursor: pointer;
+    /* Define o raio da borda para o botão */
+    border-radius: 4px;
+}
+
+/* Estilo para o botão de upload quando o cursor passa por cima */
+.upload-button:hover {
+    /* Mantém a cor de fundo para o botão quando o cursor passa por cima */
+    background-color: #eca012;
+}
+
+/* Estilo para o link de download */
+.download-link {
+    /* Define a margem superior para o link de download */
+    margin-top: 1em;
+}
